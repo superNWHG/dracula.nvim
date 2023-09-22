@@ -142,3 +142,8 @@ local colors = require('dracula').colors()
 This will return the following table (`dracula` palette shown):
 
 ![colors](./assets/colors.png)
+
+
+
+**-- note --**
+This is a fork of a repo frome someone else, I've only changed 2 colors because I liked that more.
