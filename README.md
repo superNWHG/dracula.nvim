@@ -145,5 +145,5 @@ This will return the following table (`dracula` palette shown):
 
 
 
-**-- note --**
+**-- NOTE --**
 This is a fork of a repo frome someone else, I've only changed 2 colors because I liked that more.
