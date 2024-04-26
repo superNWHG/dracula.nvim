@@ -7,8 +7,10 @@
 
 ## ✔️ Requirements
 
-- Neovim >= 0.8.0
+- Neovim >= 0.9.2
 - Treesitter (optional)
+
+NOTICE: if you use an older version of neovim (>=0.8.0 <0.9.2), you can pin this plugin to [commit 8fc749](https://github.com/Mofiqul/dracula.nvim/commit/8fc749e2479d62829c9c627867770035b74529a4)
 
 ## #️ Supported Plugins
 
@@ -68,6 +70,22 @@ require('lualine').setup {
     theme = 'dracula-nvim'
     -- ...
   }
+}
+```
+
+If you are using [LazyVim](https://github.com/LazyVim/LazyVim), you can add this to your plugins/colorscheme.lua file:
+```
+return {
+  -- add dracula
+  { "Mofiqul/dracula.nvim" },
+
+  -- Configure LazyVim to load dracula
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "dracula",
+    },
+  },
 }
 ```
 
